@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "## Description",
   "main": "index.js",
-  "scripts": {
-    "netlify": "cd website && npm run netlify"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/therefore-ondemand/lon-web-gat.git"
