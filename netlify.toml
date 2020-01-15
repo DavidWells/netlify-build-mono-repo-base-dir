@@ -1,0 +1,7 @@
+[build]
+  base = "website/"
+ publish = "website/public/"
+ command = "npm run netlify"
+
+[[plugins]]
+  type = "./netlify/netlify-plugin-gatsby-cache"

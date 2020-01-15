@@ -1,0 +1,12 @@
+pre-commit:
+  parallel: false
+  commands:
+    formatter:
+      glob: "*.{js,jsx,ts,tsx,scss}"
+      run: prettier --check {staged_files}
+    lint-check:
+      glob: "*.{js,jsx,ts,tsx}"
+      run: eslint {staged_files} --quiet
+    sass-check:
+      glob: "*.{scss}"
+      run: stylelint --quiet {staged_files}

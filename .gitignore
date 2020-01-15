@@ -1,0 +1,11 @@
+# Ignore files
+.idea
+yarn.lock
+.yarn-integrity
+
+# Ignore subfolder gits
+**/.git/
+
+node_modules
+
+.netlify/cache
