@@ -15,7 +15,7 @@
     "node": ">=10.16.0"
   },
   "scripts": {
-    "netlify": "npm install --only=prod && npm run build",
+    "netlify": "npm run build",
     "audit": "npm audit",
     "audit:fix": "npm audit fix",
     "build": "gatsby build",

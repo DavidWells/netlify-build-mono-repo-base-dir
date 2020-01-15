@@ -4,4 +4,4 @@
  command = "npm run netlify"
 
 [[plugins]]
-  type = "./netlify/netlify-plugin-gatsby-cache"
+  package = "./netlify/netlify-plugin-gatsby-cache"
